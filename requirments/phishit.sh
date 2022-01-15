@@ -139,7 +139,7 @@ distro=$(uname -o)
 echo
 printf "ITS STARTING PLEASE WAIT......\n" | lolcat
 echo
-cd assets/sites/
+cd requirments/assets/sites/
 cd ${pfolder}/
 echo
 printf "${C2}STARTING SERVER${R0}"

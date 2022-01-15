@@ -19,7 +19,7 @@ R0="\033[00m"   R1="\033[1;00m"
 
 #__________ INTERRUPTION_________
 Do_on_signal_SIGINT () {
-play sound/Shut-down-sound-effect.mp3
+play sound/Shut-down-sound-effect.mp3 > /dev/null 2>&1
 printf "${S4}FRAMEWORK INTERRUPTED[!]${R0}\n"
 exit 1
 }
