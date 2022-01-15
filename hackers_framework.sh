@@ -322,7 +322,7 @@ while read -r pass; do
        printf "${S1}[!]FAILD TO CRACK. PLEASE TRY WITH ANOTHER PASSWORD LIST${R0}\n"
    fi
 count=$(( count+1 ))
-done < "${pass_path}"
+done < "$pass_path"
 }
 
 #(((((((((((((((((( CCTV-HYJACK ))))))))))))))))))))
