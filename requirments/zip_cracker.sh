@@ -24,7 +24,7 @@ read pass_path
 count=1
 while read -r pass; do
   printf "${S1}[*] ${S6}TRYING... ${R0}${S1}: ${S4}${count} ${S1}:: ${S4}${pass}\n"
-  unzip -o -p ${pass} ${file_path} > /dev/null 2>&1
+  unzip -o -P ${pass} ${file_path} > /dev/null 2>&1
     if [ $? == '0' ]; then
        printf "${S2}SUCESSFULLY CRACKED!!${R0} ${S4}password is : ${S1}${pass}${R0}\n"
    break
