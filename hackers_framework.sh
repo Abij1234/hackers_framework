@@ -220,16 +220,16 @@ echo -e "
           <----------------------------------------------->
                           for phishing
          		~~~~~~~~~~~~~~~
-              'HKFRW -p termux/hackers_framework/phisit'
+              'HKFRW -p hackers_framework/phisit'
 
    			  for CCTV-HYJACK
 			~~~~~~~~~~~~~~~~~~
 
-	     'HKFRW -c termux/hackers_framework/CCTV-HYJACK'
+	     'HKFRW -c hackers_framework/CCTV-HYJACK'
 
 			  for zip_crack
  		        ~~~~~~~~~~~~~~~~~~
-             'HKFRW -z termux/hackers_framework/zip_crack'
+             'HKFRW -z hackers_framework/zip_crack'
 
 		          for banner changing
 		         ~~~~~~~~~~~~~~~~~~~~~
@@ -241,7 +241,7 @@ echo -e "
 
      	       my system (for know about your system
              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-            'HKFRW -ms termux/hackers_framework/mysystem'
+              'HKFRW -ms hackers_framework/mysystem'
 
           <---------------------------------------------->" | pv -qL 300 | lolcat
 }
@@ -377,19 +377,19 @@ elif [[ $cho == '-commands' || $cho == '-comands' ]]; then
 echo
 com
 
-elif [[ $cho == 'HKFRW -p termux/hackers_framework/phisit' ]]; then
+elif [[ $cho == 'HKFRW -p hackers_framework/phisit' ]]; then
 echo
 phish
 
-elif [[ $cho == 'HKFRW -p termux/hackers_framework/CCTV-HYJACK' ]]; then
-echo
+elif [[ $cho == 'HKFRW -c hackers_framework/CCTV-HYJACK' ]]; then
+#echo
 CCTV
 
-elif [[ $cho == 'HKFRW -z termux/hackers_framework/zip_crack' ]]; then
+elif [[ $cho == 'HKFRW -z hackers_framework/zip_crack' ]]; then
 echo
 zip
 
-elif [[ $cho == 'HKFRW -ms termux/hackers_framework/mysystem' ]]; then
+elif [[ $cho == 'HKFRW -ms hackers_framework/mysystem' ]]; then
 echo
 mysys
 

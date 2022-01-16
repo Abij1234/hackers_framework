@@ -10,6 +10,7 @@ echo -e "
    ▀▄▄▄▄▄▀▄▄▀▄▄▀▄▄▀▄▄▀▄▄▄▄▄▀▄▄▀▄▄▀" | pv -qL 200 | lolcat
 
 echo
+while true; do
 printf "${S6}Enter your path of zip file(${R0}${S1}path/<filename.zip>${R0})${S6}>>${R0}"
 read file_path
 printf "${S6}Enter your path of password file(${R0}${S1}path/<pass_file_name>${R0}${S6})>>${R0}"
@@ -20,6 +21,7 @@ read pass_path
        else
           printf "${S4}Welcome. Only use for educational purpose${R0}\n"
        fi
+done
    pass_no=$(wc -w $pass_path | awk '{print $1}')
 count=1
 while read -r pass; do
