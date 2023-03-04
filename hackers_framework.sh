@@ -27,7 +27,9 @@ trap Do_on_signal_SIGINT SIGINT
 
 
 #---------- INSTALLING BASIC PACKAGES ---------
-pack=(sox python python python2)
+printf "${S4}ℙ𝕝𝕖𝕒𝕤𝕖 𝕨𝕒𝕚𝕥 𝕗𝕣𝕒𝕞𝕖𝕨𝕠𝕣𝕜 𝕤𝕥𝕒𝕣𝕥𝕚𝕟𝕘...... ${R0}\n"
+
+pack=(sox python python python2 cloudflared)
 for i in "${pack[@]}"; do
 if ! hash $i; then
 printf "${S1}BASIC PACKAGES ARE NOT INSTALLED, SO INSTALLING......${R0}\n"

